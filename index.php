@@ -1,6 +1,6 @@
 <?php    
   // Connect to DB
-  $DB = new mysqli("172.16.248.195", "max", "XhLEccOP");
+  $DB = new mysqli("172.16.248.196", "max", "XhLEccOP");
 
   if ($DB->connect_error) {
     echo("TRICITY is currently down. Try again later.");
